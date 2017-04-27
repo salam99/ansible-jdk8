@@ -1,0 +1,8 @@
+---
+# jdk8 installation
+- hosts: jdkserver
+  remote_user: root
+  
+  roles:
+    - jdk8-install
+...
